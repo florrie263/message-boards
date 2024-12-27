@@ -1,0 +1,50 @@
+/* styles.css */
+
+/* 整体背景颜色 */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0; /* 浅灰色背景 */
+    padding: 20px;
+}
+
+/* h1 样式 */
+h1 {
+    text-align: center; /* 文本居中 */
+    font-size: 2em; /* 字体大小 */
+    margin-bottom: 20px; /* 下边距 */
+}
+
+/* 注册和登录表单样式 */
+#register-form, #login-form {
+    background-color: rgba(211, 211, 211, 0.5); /* 浅灰色 */
+    border-radius: 15px; /* 圆角 */
+    padding: 20px;
+    margin-bottom: 20px; /* 下边距 */
+    text-align: center; /* 文字居中 */
+}
+
+/* 留言区样式 */
+#messages {
+    background-color: #696969; /* 深灰色背景 */
+    border: 2px solid #ccc; /* 边框颜色 */
+    border-radius: 15px; /* 圆角 */
+    padding: 10px; /* 内边距 */
+    max-height: 300px; /* 最大高度 */
+    overflow-y: auto; /* 超出部分滚动 */
+    margin-bottom: 20px; /* 下边距 */
+    color: #fff; /* 文字颜色 */
+}
+
+/* 留言输入框样式 */
+#message-input {
+    border-radius: 5px; /* 圆角 */
+    width: calc(100% - 22px); /* 满宽度减去内边距 */
+    padding: 10px;
+}
+
+/* 按钮样式 */
+button {
+    border-radius: 5px; /* 圆角 */
+    padding: 10px 20px;
+    cursor: pointer; /* 鼠标指针样式 */
+}
